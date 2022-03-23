@@ -8,7 +8,7 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node)
 {
 	if (!node || !node->parent)
 		return (NULL);
-	if (node->parent->right->n == node->n)
+	if ((void *)node->parent->right == (void *)node)
 		return (node->parent->left);
 	else
 		return (node->parent->right);
