@@ -14,7 +14,7 @@ int binary_tree_is_leaf(const binary_tree_t *node)
  * @tree: pointer to tree
  * Return: measure of tree size
  */
- size_t binary_tree_nodes(const binary_tree_t *tree)
+size_t binary_tree_nodes(const binary_tree_t *tree)
 {
 	size_t leaf_flag = 0, child_flag = 0;
 
