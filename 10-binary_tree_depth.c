@@ -5,7 +5,7 @@
  * @tree: pointer to tree
  * Return: measure of tree depth
  */
- size_t binary_tree_depth(const binary_tree_t *tree)
+size_t binary_tree_depth(const binary_tree_t *tree)
 {
 	size_t counter = 0;
 

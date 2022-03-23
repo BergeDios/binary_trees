@@ -5,7 +5,7 @@
  * @tree: pointer to tree
  * Return: measure of tree size
  */
- size_t binary_tree_size(const binary_tree_t *tree)
+size_t binary_tree_size(const binary_tree_t *tree)
 {
 
 	if (!tree)
